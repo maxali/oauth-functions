@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "bindings": [
     {
@@ -13,4 +14,21 @@
     }
   ],
   "disabled": false
+=======
+{
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    }
+  ],
+  "disabled": false
+>>>>>>> 07a4897577f933a22832e17d3f670995128aa1fd
 }
