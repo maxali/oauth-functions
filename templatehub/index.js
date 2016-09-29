@@ -10,7 +10,7 @@ module.exports = function(context, req) {
     else {
         context.res = {
             status: 200,
-            body: "Please pass a name on the query string or in the request body"
+            body: "OK! Please pass a name on the query string or in the request body"
         };
     }
     context.done();
